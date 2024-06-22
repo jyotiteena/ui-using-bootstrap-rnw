@@ -1,0 +1,448 @@
+:root {
+    --whiteColor: #fff;
+    --btnBackgroundColor: #FF9F67;
+    --darkOrangecolor: #FF7B2E;
+    --headingParaTextColor: #4255A4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Josefin Sans", sans-serif;
+    color: var(--headingParaTextColor);
+}
+
+h2 {
+    font-size: 42px;
+}
+
+.btn {
+    font-family: "Josefin Sans", sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headerBkImg {
+    background-image: url('../images/hero.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    color: var(--whiteColor) !important;
+    position: relative;
+}
+
+.headerBkImgPage {
+    background-image: url('../images/hero2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    color: var(--whiteColor) !important;
+    position: relative;
+}
+
+header .nav-link {
+    color: var(--whiteColor) !important;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+header .nav-item {
+    margin-right: 30px;
+}
+
+header .backAbout h2 {
+    color: var(--whiteColor);
+    font-size: 4rem;
+}
+
+header .backAbout p {
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+header .joinFree {
+    background-color: var(--btnBackgroundColor);
+    color: var(--whiteColor);
+    padding: 10px 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.topDetails {
+    color: var(--headingParaTextColor);
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+}
+
+.topDetails .card,
+.aboutCard .card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 25px 60px rgba(66, 85, 164, 0.06);
+}
+
+.topDetails h5,
+.aboutCard h5 {
+    font-weight: bold;
+}
+
+.topDetails p,
+.aboutCard p {
+    font-size: 1.1rem;
+}
+
+.join {
+    padding: 5px 35px;
+    background-color: var(--btnBackgroundColor);
+    border-radius: 5px;
+}
+
+.login {
+    padding: 5px 35px;
+    outline: solid 1px var(--whiteColor);
+    color: var(--whiteColor);
+    border-radius: 5px;
+}
+
+/* features */
+.features .card {
+    border: none;
+    box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+}
+
+.features h3 {
+    font-size: 20px;
+}
+
+.features h3 a {
+    color: var(--headingParaTextColor);
+}
+
+.features p {
+    color: #6E7697;
+    font-size: 0.9;
+    line-height: 1.8;
+}
+
+.features .rating i {
+    color: var(--darkOrangecolor);
+}
+
+.features .detail span {
+    color: var(--btnBackgroundColor);
+    font-size: 0.9rem;
+
+}
+
+.features .rate span {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--headingParaTextColor);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.features .findMore a {
+    outline: solid 1px #E2E4FF;
+    color: var(--headingParaTextColor);
+    padding: 15px 0;
+    transition: all 0.2s linear;
+}
+
+.features .findMore:hover a {
+    background-color: var(--btnBackgroundColor);
+    color: var(--whiteColor);
+}
+
+
+.onlineSkill .videoPlay {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--whiteColor);
+    font-size: 20px;
+    background-color: var(--btnBackgroundColor);
+}
+
+.onlineSkill .rank {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #eae2fe 0%, #a376ff 1%, #ea68ff 98%, #ec7dfe 99%, #f3f3fa 99%, #f4f5fa 100%);
+    box-shadow: 0px 15px 25px rgba(66, 85, 164, 0.08);
+}
+
+.onlineSkill h2 {
+    font-size: 42px;
+}
+
+.onlineSkill ul li {
+    color: var(--headingParaTextColor);
+    line-height: 2;
+    display: flex;
+    align-items: center;
+}
+
+.onlineSkill ul li:before {
+    content: '\f00c';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 700;
+    padding-right: 15px;
+    font-size: 20px;
+    color: var(--btnBackgroundColor);
+
+}
+
+.exploreSubject .card .hoverEffect {
+    background: rgba(66, 85, 164, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 1s linear;
+    border-radius: 5px;
+    opacity: 0;
+}
+
+.exploreSubject .card:hover .hoverEffect {
+    opacity: 1;
+}
+
+.exploreSubject a:hover {
+    text-decoration: underline;
+}
+
+.exploreSubject .findMore a {
+    outline: solid 1px var(--btnBackgroundColor);
+    color: var(--btnBackgroundColor);
+    padding: 15px 50px;
+    transition: all 0.2s linear;
+}
+
+.exploreSubject .findMore:hover a {
+    background-color: var(--btnBackgroundColor);
+    color: var(--whiteColor);
+    text-decoration: none;
+}
+
+.experts a {
+    color: var(--headingParaTextColor);
+}
+
+.experts p {
+    color: #57667E;
+    font-size: 1.1rem;
+}
+
+.aboutUs a {
+    background-color: var(--btnBackgroundColor);
+    color: var(--whiteColor);
+    padding: 10px 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.aboutUs p {
+    color: #10285d;
+    line-height: 2;
+}
+
+footer {
+    background-color: var(--headingParaTextColor);
+    color: var(--whiteColor);
+}
+
+.topText {
+    padding-top: 120px;
+}
+
+.topText h2,
+.topText a {
+    color: var(--whiteColor) !important;
+    padding: 0 10px;
+}
+
+.LoadMore {
+    border: solid 1px var(--btnBackgroundColor);
+    color: var(--btnBackgroundColor);
+    padding: 15px 40px;
+}
+
+.LoadMore:hover {
+    background-color: var(--btnBackgroundColor);
+    color: var(--whiteColor);
+}
+
+.form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.contact textarea {
+    height: 250px;
+}
+
+.contact button {
+    background: #fff;
+    color: #C86FFF !important;
+    padding: 18px 44px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #C86FFF;
+    letter-spacing: 3px;
+    color: #C86FFF;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.contact button:hover {
+    background-color: #C86FFF;
+    color: #fff !important;
+}
+
+.contact i {
+    color: #8f9195;
+    font-size: 27px;
+}
+
+footer ul {
+    list-style-type: none;
+    /* margin-left: 3.1rem; */
+}
+
+footer ul li {
+    line-height: 2;
+}
+
+footer h4 {
+    color: #fff !important;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* login  */
+.video-background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.outerContainer {
+    max-width: 400px;
+    margin: auto;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loginForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 480px;
+    padding: 90px 45px 60px 45px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.loginForm .box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.loginForm .box label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.loginForm .box input {
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: transparent;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.loginForm input::placeholder {
+    color: #fff !important;
+}
+
+.logo-login img {
+    position: absolute;
+    top: -57px;
+    left: 0;
+    right: 0;
+    width: 99px;
+    height: 95px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 15px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+.sticky {
+    background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+    box-shadow: 0 0 10px black;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 100px;
+    top: 0;
+    margin: 0 auto;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    display: none;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+}
+
+.scrollTop:hover {
+    cursor: pointer;
+}
